@@ -5,7 +5,7 @@ import spacecraft_father.Shuttle;
 
 public class Fly {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         SaturnoV saturnoV = new SaturnoV();
         saturnoV.launch();

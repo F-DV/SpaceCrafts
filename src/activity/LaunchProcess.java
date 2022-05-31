@@ -2,8 +2,8 @@ package activity;
 
 public interface LaunchProcess {
 
-    public void refuel();
-    public void strongbackRetract();
-    public void startup();
-    public void liftoff();
+    public void refuel() throws InterruptedException;
+    public void strongbackRetract() throws InterruptedException;
+    public void startup() throws InterruptedException;
+    public void liftoff() throws InterruptedException;
 }
