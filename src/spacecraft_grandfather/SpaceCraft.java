@@ -1,6 +1,9 @@
 package spacecraft_grandfather;
 
-
+/**
+ * @author FelipeQG
+ * Clase padre para los tipos de naves espaciales
+ */
 public abstract class SpaceCraft {
     private String name;
     private String nationality;
@@ -55,8 +58,7 @@ public abstract class SpaceCraft {
                 "name='" + name + '\'' +
                 ", nationality='" + nationality + '\'' +
                 ", yearOfActivity='" + yearOfActivity + '\'' +
-                ", gas='" + gas + " + " +
-                ", oxidizing='" + oxidizing + '\'' +
+                ", Fuel='" + gas + " + " + oxidizing + '\'' +
                 '}';
     }
 }

@@ -1,7 +1,14 @@
 package spacecraft_father;
 
-public class Manned {
+import spacecraft_grandfather.SpaceCraft;
 
+/**
+ * @author FelipeQG
+ * Clase padre para la naves Tripuladas
+ */
+public class Manned extends SpaceCraft {
+
+    //Numero de tripulantes
     private int numberOfCrew;
 
     public int getNumberOfCrew() {
