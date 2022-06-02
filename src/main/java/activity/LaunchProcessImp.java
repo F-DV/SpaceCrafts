@@ -1,4 +1,4 @@
-package activity;
+package main.java.activity;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -12,7 +12,9 @@ public class LaunchProcessImp implements LaunchProcess{
     private boolean isRefuel = false;
     private boolean isStrongbackRetract = false;
     private boolean isStartup = false;
-    //private int countdown;
+
+    public LaunchProcessImp() {
+    }
 
     @Override
     public boolean refuel(int period,int count) throws InterruptedException {
@@ -52,7 +54,7 @@ public class LaunchProcessImp implements LaunchProcess{
             @Override
             public void run() {
                 System.out.print(time + " ");
-                if (time >= count) {
+                if (time >= count && isRefuel) {
                     isStrongbackRetract = true;
                     System.out.println(" ");
                     retractTimer.cancel();

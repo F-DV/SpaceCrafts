@@ -1,7 +1,7 @@
-package spacecraft_child;
+package main.java.spacecraft_child;
 
-import activity.LaunchProcessImp;
-import spacecraft_father.Shuttle;
+import main.java.activity.LaunchProcessImp;
+import main.java.spacecraft_father.Shuttle;
 
 /**
  * @author: FelipeQG
@@ -30,7 +30,7 @@ public class SaturnoV extends Shuttle {
     /**
      * Metodo para orquestar el lanzamiento de la nave espacial
      */
-    public void launch() throws InterruptedException {
+    public boolean launch() throws InterruptedException {
         int number = 0;
         boolean flag= true;
 
@@ -53,5 +53,9 @@ public class SaturnoV extends Shuttle {
             }
             number++;
         }
+        if(isParametersReady){
+            return true;
+        }
+        return false;
     }
 }

@@ -1,4 +1,4 @@
-package spacecraft_grandfather;
+package main.java.spacecraft_grandfather;
 
 /**
  * @author FelipeQG

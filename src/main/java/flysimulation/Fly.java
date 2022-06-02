@@ -1,7 +1,7 @@
-package main;
+package main.java.flysimulation;
 
-import spacecraft_child.SaturnoV;
-import spacecraft_child.Voyage1;
+import main.java.spacecraft_child.SaturnoV;
+import main.java.spacecraft_child.Voyage1;
 
 /**
  * @author FelipeQG
