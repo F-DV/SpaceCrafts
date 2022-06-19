@@ -1,7 +1,7 @@
-package spacecraft_child;
+package main.java.spacecraft_child;
 
-import activity.LaunchProcessImp;
-import spacecraft_father.UnManned;
+import main.java.activity.LaunchProcessImp;
+import main.java.spacecraft_father.UnManned;
 
 /**
  * @author FelipeQG

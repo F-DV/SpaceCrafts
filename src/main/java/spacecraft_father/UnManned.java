@@ -1,6 +1,6 @@
-package spacecraft_father;
+package main.java.spacecraft_father;
 
-import spacecraft_grandfather.SpaceCraft;
+import main.java.spacecraft_grandfather.SpaceCraft;
 
 /**
  * @author FelipeQG
